@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const dc = ref<number | null>(null)
-const ds = ref<number | null>(null)
-const tp = ref<number | null>(null)
+const dc = ref(0)
+const ds = ref(0)
+const tp = ref(0)
 const res = ref<string>('')
 
 function som() {
